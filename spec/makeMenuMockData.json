@@ -1,0 +1,23 @@
+{	
+	"owner" : "5da06ecbc13e501a5a30379d",
+	"menu" : [{
+		"_id" : "5db190dad8da3106b1d8dd43",
+		"name" : "maki",
+		"price":4000, 
+		"category":"5da17722791127279b3ea9f9"
+	},
+	{
+		"name" : "iceAmerica",
+		"price":4000, 
+		"category":"5da17722791127279b3ea9f9"
+	}
+	,{
+		"name" : "greenTea",
+		"price":5000, 
+		"category":"5da1772b791127279b3ea9fa"
+	},{
+		"name" : "some-tea",
+		"price":6000, 
+		"category":"5da1773f791127279b3ea9fb"
+	}]
+}
