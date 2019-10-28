@@ -33,7 +33,7 @@ jobs:
       - run:
           name: Deploy to env
           command: |
-                eb deploy ItSMySeatVcServer-env
+                eb deploy it-s-my-seat-VC-server
 workflows:
   version: 2
   build-deploy:
