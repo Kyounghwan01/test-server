@@ -16,7 +16,7 @@ exports.login = async (req, res, next) => {
       return res.status(400).redirect('/login?error=wrongpassword');
     } else {
       const tocken = jwt.sign(checkEmail[0].email, process.env.YOUR_SECRET_KEY);
-      return res.status(200).redirect(`/?${tocken}`);
+      return res.status(200).redirect(`http://localhost:3000/?${tocken}`);
     }
   } catch (error) {
     return next(error);
