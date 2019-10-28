@@ -1,9 +1,9 @@
 branch-defaults:
   default:
-    environment: null
+    environment: ItSMySeatVcServer-env
     group_suffix: null
 global:
-  application_name: test-server
+  application_name: ItSMySeatVcServer-env
   branch: null
   default_ec2_keyname: aws-eb
   default_platform: Node.js
