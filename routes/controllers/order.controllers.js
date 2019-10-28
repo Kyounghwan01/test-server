@@ -80,7 +80,7 @@ exports.makeNewMenu = async (req, res, next) => {
     });
     await cafes.save();
   }
-  res.redirect(`/change/menu?${req.params.id}`);
+  res.redirect(`http://localhost:3000/change/menu?${req.params.id}`);
 };
 
 exports.changeMenuNameAndPrice = async (req, res, next) => {

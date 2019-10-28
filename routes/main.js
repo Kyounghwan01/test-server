@@ -45,4 +45,3 @@ router.delete('/cafes/menu/:id', deleteMenu);
 router.post(`/cafes/complete/:id`, verifyToken, changeComplete);
 
 module.exports = router;
-//
