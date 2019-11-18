@@ -10,8 +10,11 @@ exports.changeSeats = async (req, res, next) => {
       req.params.id,
       process.env.YOUR_SECRET_KEY
     );
+    console.log(decoded);
     const objectId = await User.find({ email: decoded });
+    console.log(objectId);
     const cafes = await Cafes.findOne({ owner: objectId[0]._id });
+    console.log(cafes);
     cafes.arrangemenet = req.body.cafeArrange;
     await cafes.save();
     res.status(200).send({ status: 'success' });
